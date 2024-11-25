@@ -1,0 +1,1147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+    
+}
+
+body,html{
+    background-color: rgb(39, 36, 36);
+    color: white;
+    width: 100%;
+    height: 100%;
+
+}
+
+main{
+    background-color:rgb(44, 40, 40);
+}
+
+.container{
+    width: 100%;
+    height:100vh;
+    /*background-color: red;*/
+    background-image: url("bg-img.jpg");
+   
+}
+
+.container > .box{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    width: 80%;
+    height: 5vw;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+  
+
+    
+}
+
+nav img{
+    height: 110%;
+    width: 180px;
+    
+}
+
+nav select,.sign-in-btn{
+    width: 8vw;
+    height:30px;
+    border-radius: 3px;
+    margin: 0 5px;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+nav .sign-in-btn{
+    width: 5vw;
+    background-color: rgb(229, 9, 20);
+}
+
+nav select{
+   background-color: rgba(21, 20, 20, 0.511);
+   text-align: center;
+   border: 1px solid rgb(120, 112, 112);
+   
+}
+
+main .content{
+    
+    width: 60%;
+    height: 15vw;
+    margin: 14vw auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content h1{
+    color: white;
+    font-size: 2.7rem;
+    font-weight: 900;
+
+}
+
+.content p:nth-child(3){
+    font-size: 1.3rem;
+}
+
+.content p:nth-child(2){
+  font-size: 1.5rem;
+}
+
+.content input[type="email"]{
+    background-color: rgba(103, 127, 164, 0.37);
+    height:3.7vw;
+    border: 1px solid rgba(133, 126, 126, 0.982);
+    border-radius: 2px;
+    width: 40%;
+    padding: 20px;
+    color:white;
+    
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.639);
+    font-size: 1rem;
+}
+
+.content button{
+    background-color: rgb(229, 9, 20);
+    height: 3.8vw;
+    width: 20%;
+    font-size: 1.4rem;
+    margin: 0 0 0 10px;
+    font-weight: bold;
+    color: white;
+  
+
+}
+
+.content span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box-1{
+    width: 100%;
+    height:40vw;
+    background-color: black;
+    margin: 10px 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+
+
+}
+
+.p-1{
+    padding: 0 13vw;
+}
+
+.box-1 div{
+    margin: 0 3vw;
+    
+    
+}
+
+.box-1 .tv{
+    width: 35vw;
+    height: 25vw;
+    position: relative;
+    top: 141px;
+    z-index: 2;
+}
+
+.enjoy-video{
+    width: 25vw;
+    height: 15vw;
+    position:relative;
+    top: -185px;
+    right: -73px;
+}
+
+.box-1 h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 1vw 0;
+}
+
+.box-1 .box-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 84vw;
+    margin: 0 auto;
+}
+
+.box-2 div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: column;
+    
+}
+.box-2 .mobile{
+    width: 35vw;
+    height: 25vw;
+}
+
+.box-2 p{
+    font-size: 1.5rem;
+}
+
+.box-2 .span-box{
+    width: 290px;
+    height: 100px;
+    background-color: black;
+    border: 2px solid rgba(86, 81, 81, 0.817);
+    border-radius: 10px;
+    position: relative;
+    top: -120px;
+    right: -125px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.span-box p{
+    color:#0071eb;
+    font-size: 15px;
+}
+
+.span-box .gif{
+    
+position: relative;
+left:-25px;
+}
+
+.span-box div{
+    position: relative;
+    left: -30px;
+}
+
+.img img{
+    width: 35vw;
+    height:28vw;
+    position: relative;
+    z-index: 1;
+    bottom: -180px;
+
+}
+
+.img video{
+    width: 22vw;
+    height: 20vw;
+    position: relative;
+    top: -260px;
+    right: -100px;
+}
+
+.text p{
+    font-size: 1.7rem;
+}
+
+.box-2 .kids{
+    width: 85vw;
+    height: 30vw;
+}
+
+.q-a{
+    width: 100%;
+    height: auto;
+    background-color: black;
+
+}
+
+.q-a .q-container{
+
+    width:80%;
+    margin: 0 auto;
+    padding: 4vw 0 0.5vw 0;
+
+}
+
+.q-container h2{
+    font-size: 3rem;
+    text-align: center;
+    margin: 1vw;
+    font-weight: 900;
+    
+}
+
+.question{
+    width: 98%;
+    height: 5vw;
+    background-color: rgb(52, 47, 47);
+    margin:1vw;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.3vw;
+    border: none;
+    color: white;
+
+}
+
+.question:hover{
+    background-color:rgb(70, 63, 63) ;
+    transition: background-color 0.2s;
+}
+
+.q-btn{
+    font-size: 3rem;
+}
+
+.email-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4vw;
+    font-size: 1.3rem;
+}
+
+.email-section button{
+    background-color: rgb(229, 9, 20);
+    height: 3.8vw;
+    width: 17%;
+    font-size: 1.4rem;
+    margin: 0 0 0 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.email-section input{
+    background-color: rgba(61, 66, 74, 0.37);
+    height:3.7vw;
+    border: 1px solid rgba(133, 126, 126, 0.747);
+    border-radius: 5px;
+    width: 40%;
+    padding: 20px;
+    color:white;
+}
+
+.email-section span{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 1vw;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    margin: 10px 0 0 0;
+    background-color: black;
+}
+
+.footer-content{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    padding: 4vw;
+}
+
+.footer-links{
+    margin-top: 1.5vw;
+    width: 100%;
+    height: 60%;
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+    font-size: 0.9rem;
+    color: white;
+
+}
+
+.footer-content,.footer-content a{
+    color: rgb(194, 189, 189);
+    
+}
+
+.footer-content select{
+    width:120px;
+    height: 30px;
+    border:1px solid rgba(107, 100, 100, 0.712);
+    background-color: black;
+    color: white;
+    margin: 10px 0;
+    font-weight: bold;
+    border-radius:5px;
+
+}
+
+
+@media only screen and (max-width:480px){
+
+    .box-1 .box-2{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .box-2 .span-box{
+        width: 10px;
+        position: relative;
+        right: 0px;
+    }
+
+    html{
+        font-size: 7px;
+    }
+
+    nav img{
+        height: 29px;
+        width: 105px;
+    }
+
+    .container{
+        height: 90vh;
+    }
+
+    .nav-btn{
+        display: flex;
+    }
+
+    nav select{
+        width: 22vw;
+    }
+
+    nav .sign-in-btn {
+        width: 22vw;
+       
+    }
+
+    nav{
+        width: 100%;
+        padding-top: 37px;
+    }
+
+    main .content {
+        width: 100%;
+        padding:7%;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        height: 83%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .content h1{
+        font-weight: 790;
+        font-size: 4.5rem;
+        
+    }
+
+    .content p:nth-child(2){
+        font-size: 2.8rem;
+        padding: 28px;
+    }
+
+    .content p:nth-child(3) {
+        font-size: 3rem;
+        padding: 10px;
+    }
+
+
+    .content span {
+flex-direction: column;
+height: 31%;
+justify-content: center;
+align-items: center;
+    }
+
+    .content input[type="email"]{
+        width: 92%;
+        height: 37%;
+        background-color: rgb(39 36 36 / 31%);
+    }
+
+    ::placeholder{
+        font-size: 2rem;
+    }
+
+    .content button{
+        margin: 15px;
+        height: 13.8vw;
+    width: 64%;
+    border-radius: 3px;
+    border: none;
+    font-size: 2.7rem;
+    }
+
+    .container > .box {
+        height: 100%;
+    }
+
+    .box-1{
+        flex-direction: column;
+        height: 150vw;
+        padding: 17vw 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .enjoy-video{
+        top: -147px;
+        right: 0;
+        height: 35vw;
+        width: 63vw;
+    }
+
+    .img video {
+        width: 48vw;
+        height: 29vw;
+        position: relative;
+        top: -140px;
+        right: 0px; 
+    }
+
+    .box-1 h2 {
+        font-size: 4.5rem;
+        font-weight: 750;
+        margin-bottom: 10vw;
+    }
+
+    .p-1 p{
+        font-size: 2.7rem;
+        padding: 0 16px;
+    }
+
+    .box-1 .tv{
+        display: flex;
+        top:0;
+        width: 85vw;
+        height: 60vw;
+        padding-top: 10px;
+    }
+
+    .box-2 div:first-child{
+       position: relative;
+       top: 168px;
+       width: 100%;
+    }
+
+    .download-heading{
+        position: relative;
+        top: -275px;
+
+    }
+
+    .span-box div {
+        position: relative;
+        left: -13px;
+    }
+
+    .download-text{
+
+            font-size: 1.8rem;
+            position: relative;
+            left: -7px;
+
+    }
+
+    .span-box div:nth-child(2){
+        top: 0;
+    }
+
+    .box-2 .mobile {
+       width: 86vw;
+    height: 59vw;
+    }
+
+    .box-2 p {
+        font-size: 2.4rem;
+        text-align: start;
+    }
+
+    .box-1 h2 {
+        
+        margin-bottom: 5vw;
+    }
+
+    .box-2 .span-box {
+        width: 100%;
+        height: 23%;
+        position: relative;
+        top: -67px;
+        right: 0px;
+    }
+
+    .span-box img{
+        height: 100%;
+    width: 15%;
+    }
+
+   
+.box-2 p {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+
+.img img {
+    width: 75vw;
+    height: 60vw;
+    position: relative;
+    z-index: 1;
+    bottom: -33px;
+}
+
+.enjoy-video {
+    top: -147px;
+    right: 0;
+    height: 35vw;
+    width: 62vw;
+}
+
+
+.box-2 .kids {
+    width: 90vw;
+    top: 200px;
+    position: relative;
+    height: 61vw;
+}
+
+
+.kids-text{
+        position: relative;
+        top: -195px;
+}
+
+.q-container h2 {
+    font-size: 3.7rem;
+}
+
+.q-a .q-container {
+    width: 90%;
+    
+}
+
+.question{
+    height: 25vw;
+    font-size: 2.8rem;
+}
+
+.q-btn {
+    font-size: 5.1rem;
+}
+
+.email-section span {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 7vw 9vw;
+    align-items: center;
+}
+
+
+.email-section{
+    margin: 17vw 4vw;
+    text-align: center;
+    font-size: 7vw;
+    height: 58vw;
+}
+
+.email-section input{
+    width: 100%;
+    height: 15.75vw;
+    margin: 0 0 4vw 0;
+
+}
+
+.email-section button{
+    height: 13.8vw;
+    width: 68%;
+    font-size: 2.9rem;
+}
+
+.footer-content{
+    width: 90%;
+    font-size: 2rem;
+}
+
+.footer-links{
+    font-size: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    height: 70%;   
+    margin-top: 6.5vw;
+
+}
+
+
+}
+
+
+@media only screen and (min-width:768px) and ( max-width:992px){
+
+        .box-1 .box-2{
+            display: flex;
+            flex-direction: column;
+            
+        }
+    
+        .box-2 .span-box{
+            width: 10px;
+            position: relative;
+            right: 0px;
+        }
+    
+        html{
+            font-size: 7px;
+        }
+    
+        nav img{
+            height: 29px;
+            width: 105px;
+        }
+    
+        .container{
+            height: 86vh;
+        }
+    
+        .nav-btn{
+            display: flex;
+        }
+    
+        nav select{
+            width: 13vw;
+        }
+    
+        nav .sign-in-btn {
+            width: 10vw;
+           
+        }
+    
+        nav{
+            width: 100%;
+            padding-top: 37px;
+        }
+    
+        main .content {
+            width: 100%;
+            padding:7%;
+            padding-bottom: 0;
+            margin-bottom: 0;
+            height: 50%;
+            text-align: center;
+            justify-content: center;
+        }
+    
+        .content h1{
+            font-weight: 790;
+            font-size: 4.5rem;
+            
+        }
+    
+        .content p:nth-child(2){
+            font-size: 2.8rem;
+            padding: 28px;
+        }
+    
+        .content p:nth-child(3) {
+            font-size: 2.5rem;
+            padding: 10px;
+        }
+    
+      
+    
+        .content span {
+            width: 85%;
+    height: 31%;
+    justify-content: center;
+    align-items: center;
+        }
+    
+        .content input[type="email"]{
+            width: 92%;
+            height: 75%;
+            background-color: rgb(39 36 36 / 31%);
+        }
+    
+        ::placeholder{
+            font-size: 2rem;
+        }
+    
+        .content button{
+            margin: 15px;
+    height: 5.8vw;
+    width: 54%;
+    border-radius: 3px;
+    border: none;
+    font-size: 2.7rem;
+        }
+    
+        .container > .box {
+            height: 86%;
+        }
+    
+        .box-1{
+            flex-direction: column;
+            height: 100vw;
+            padding: 17vw 0;
+            align-items: center;
+            text-align: center;
+        }
+    
+      
+    
+        .box-1 h2 {
+            font-size: 4.5rem;
+            font-weight: 750;
+            margin-bottom: 2vw;
+        }
+    
+        .p-1 p{
+            font-size: 2.7rem;
+            padding: 0 16px;
+        }
+    
+        .box-1 .tv{
+            display: flex;
+            top:0;
+            width: 85vw;
+            height: 60vw;
+            padding-top: 10px;
+        }
+    
+        .box-2 div:first-child{
+            position: relative;
+            top: 45px;
+            width: 100%;
+        }
+    
+        .download-heading{
+            position: relative;
+            top: -590px;
+    
+        }
+    
+        .span-box div {
+            position: relative;
+            left: -34px;
+        }
+    
+        .download-text{
+    
+                font-size: 1.8rem;
+                position: relative;
+                left: -7px;
+    
+        }
+    
+        .span-box div:nth-child(2){
+            top: 0;
+        }
+    
+        .box-2 .mobile {
+           width: 86vw;
+        height: 59vw;
+        }
+    
+        .box-2 p {
+            font-size: 2.4rem;
+            text-align: start;
+        }
+    
+        .box-1 h2 {
+            
+            margin-bottom: 2vw;
+        }
+
+        .span-box .gif {
+            position: relative;
+            left: 0px;
+        }
+    
+        .box-2 .span-box {
+            width: 58%;
+            height: 16%;
+            position: relative;
+            top: -67px;
+            right: -142px;
+        }
+    
+        .span-box img{
+            height: 100%;
+        width: 15%;
+        }
+    
+       
+    .box-2 p {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+    
+    
+    .img img {
+        width: 75vw;
+        height: 60vw;
+        position: relative;
+        z-index: 1;
+        bottom: -33px;
+    }
+    
+    .enjoy-video{    
+            top: -380px;
+            right: 0;
+            height: 35vw;
+            width: 63vw;
+    }
+
+    .img video {
+        width: 45vw;
+        height: 26vw;
+        position: relative;
+        top: -373px;
+        right: 0;
+    }
+    
+    
+    .box-2 .kids {
+        width: 78vw;
+        top: 126px;
+        position: relative;
+        height: 58vw;
+    }
+    
+    
+    .kids-text{
+        position: relative;
+        top: -450px;
+    }
+    
+    .q-container h2 {
+        font-size: 3.7rem;
+        margin: 4vw;
+    }
+    
+    .q-a .q-container {
+        width: 90%;
+        
+    }
+    
+    .question{
+        height: 9vw;
+        font-size: 2.8rem;
+    }
+    
+    .q-btn {
+        font-size: 5.1rem;
+    }
+    
+    .email-section span {
+        display: flex;
+        align-items: center;
+        width: 97%;
+    }
+    
+    
+    .email-section{
+        text-align: center;
+        font-size: 2.5vw;
+        height: 32vw;
+    }
+    
+    .email-section input{
+        width: 100%;
+        height: 7.75vw;
+    
+    }
+    
+    .email-section button{
+        height: 8vw;
+        width: 68%;
+        font-size: 2.9rem;
+    }
+    
+    .footer-content{
+        width: 100%;
+        font-size: 2rem;
+        height: 85%;
+    }
+    
+    .footer-links{
+        font-size: 2rem;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        height: 84%;   
+        margin-top: 6.5vw;
+    
+    }
+
+    footer{
+        height: 65vw;
+    }
+    
+    
+    
+
+
+}
+
+
+@media only screen and (min-width:992px) and ( max-width:1280px){
+   
+    nav{
+        width: 95%;
+        height: 8.5vw;
+    }
+
+    main .content{
+        width: 90%;
+        height: 22vw;
+    }
+
+    .container{
+        height: 70vw;
+    }
+
+    .box-1{
+        height: 50vw;
+    }
+
+    .p-1 {
+        padding: 0px 2vw;
+        font-size: 1.4rem;
+    }
+
+    .box-1 .tv {
+        width: 45vw;
+        height: 34vw;
+        position: relative;
+        top: 80px;
+        z-index: 2;
+    }
+
+    .enjoy-video {
+        width: 32vw;
+        height: 18vw;
+        position: relative;
+        top: -200px;
+        right: -60px;
+    }
+    
+    .box-1 .box-2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        width: 94vw;
+        margin: 0 auto;
+    }    
+
+    .box-2 .mobile {
+        width: 40vw;
+        height: 31vw;
+    }
+
+    .box-2 .span-box {
+        width: 290px;
+        height: 100px;
+        background-color: black;
+        border: 2px solid rgba(86, 81, 81, 0.817);
+        border-radius: 10px;
+        position: relative;
+        top: -112px;
+        right: -74px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .span-box div {
+        position: relative;
+        left: -24px;
+    }
+    
+.download-heading{
+    position: relative;
+    top: -46px;
+}
+
+.img img {
+    width: 39vw;
+    height: 30vw;
+    position: relative;
+    z-index: 1;
+    bottom: -132px;
+}
+
+.img video {
+    width: 24vw;
+    height: 20vw;
+    position: relative;
+    top: -176px;
+    right: -79px;
+}
+
+.box-2 .kids {
+    width: 124vw;
+    height: 35vw;
+}
+
+.q-a .q-container {
+    width: 97%;
+    margin: 0 auto;
+    padding: 4vw 0 0.5vw 0;
+}
+
+.question{
+    height: 8vw;
+}
+
+.email-section span{
+
+    width: 114%;
+}
+
+
+.email-section input{
+    height: 5.7vw;
+}
+
+
+.email-section button{
+    height: 5.8vw;
+}
+
+.footer-links{
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    height: 60%;
+}
+    
+}
+
+
+@media only screen and (min-width:1280px){
+   
+
+
+}
